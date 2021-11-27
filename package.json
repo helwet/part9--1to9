@@ -1,0 +1,30 @@
+{
+  "name": "vanilla",
+  "version": "1.0.0",
+  "description": "JavaScript example starter project",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "ts-node": "ts-node",
+    "lint": "eslint --ext .ts .",
+    "multiply": "ts-node multiplier.ts",
+    "calculate": "ts-node calculator.ts"
+  },
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "cors": "2.8.5",
+    "eslint": "8.3.0",
+    "express": "4.17.1",
+    "parcel-bundler": "^1.6.1",
+    "ts-node": "10.4.0",
+    "typescript": "4.5.2"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "typescript": "4.4.4"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "keywords": ["javascript", "starter"]
+}
